@@ -1,0 +1,44 @@
+body {
+    padding: 0 2rem;
+    margin: 0;
+}
+
+#preamble, #controls {
+    text-align: center;
+}
+
+#world {
+    padding-bottom: 10px;
+}
+table {
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+td {
+    border: 1px solid darkgray;
+    width: 20px;
+    height: 20px;
+}
+
+td.dead {
+    background-color: transparent;
+}
+
+td.alive {
+    background-color: blue;
+}
+
+input[type="button"] {
+    padding: 1rem 2rem;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #00a0d6;
+    border: none;
+    border-radius: 3rem;
+    outline: none;
+    transition-duration: 0.4s;
+}
+
+input[type="button"]:hover {
+    background-color: #4CAF50;
+}
