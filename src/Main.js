@@ -39,7 +39,7 @@ createWorld = () => {
     }
     world.appendChild(tbl);
 }
-cellClick = () => {
+function cellClick() {
     let loc = this.id.split("_");
     let row = Number(loc[0]);
     let col = Number(loc[1]);
